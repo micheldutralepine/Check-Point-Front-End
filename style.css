@@ -234,3 +234,76 @@ body {
 }
 
 /* ---------------------------- ANFITRIÃO ------------------------ */
+#anfitriao {
+  margin-top: 40px;
+}
+
+.anfitriao-content {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.anfitriao-content p {
+  font-size: 14px;
+}
+.anfitriao-content span {
+  margin-right: 10px;
+}
+
+.anfitriao-content span::after {
+  content: " ";
+  position: absolute;
+  background-color: #353535;
+  width: 3px;
+  height: 3px;
+  border-radius: 100%;
+  margin-top: 7px;
+  margin-left: 3px;
+}
+
+.img-anfitriao {
+  border-radius: 100%;
+}
+
+/* ---------------------------- ANFITRIÃO INFO ------------------------  */
+.anfitriao-info {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.anfitriao-info1,
+.anfitriao-info2,
+.anfitriao-info3 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.anfitriao-info1 h4,
+.anfitriao-info2 h4,
+.anfitriao-info3 h4 {
+  font-size: 16px;
+}
+
+.anfitriao-info1 p,
+.anfitriao-info2 p,
+.anfitriao-info3 p {
+  margin-top: 7px;
+  font-size: 14px;
+}
+
+/* ---------------------------- TEXTO DISCRIÇÃO ------------------------  */
+.discricao {
+  width: 680px;
+}
+.discricao-traducao {
+  width: 680px;
+}
+.texto-discricao {
+  width: 680px;
+}
