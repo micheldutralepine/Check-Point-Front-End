@@ -299,11 +299,83 @@ body {
 
 /* ---------------------------- TEXTO DISCRIÇÃO ------------------------  */
 .discricao {
+  margin-top: 30px;
+  margin-bottom: 50px;
   width: 680px;
 }
+
 .discricao-traducao {
-  width: 680px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
 }
+
 .texto-discricao {
-  width: 680px;
+  margin-bottom: 20px;
+}
+
+.discricao a {
+  color: black;
+  text-decoration: underline;
+}
+
+/* ------------------------------ ONDE DORMIR ------------------------------ */
+
+#onde-dormir h3 {
+  margin: 50px 0px 20px 0px;
+  font-size: 22px;
+}
+
+.onde-dormir-quartos {
+  display: flex;
+  gap: 20px;
+}
+
+.quarto1,
+.quarto2 {
+  font-size: 15px;
+  width: 215px;
+  height: 160px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 10px;
+  padding: 25px 10px 30px 25px;
+  margin-bottom: 40px;
+}
+
+.quarto1 h4,
+.quarto2 h4 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* ----------------------------- LUGAR OFERECE -------------------------  */
+
+#lugar-oferece h3 {
+  font-size: 22px;
+  margin: 50px 0px 40px 0px;
+}
+
+.comodidades-content {
+  display: flex;
+  gap: 80px;
+}
+
+.comodidades {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 13px;
+}
+
+.todas-comodidades {
+  margin: 20px 0px 50px 0px;
+}
+
+.todas-comodidades p {
+  color: #000000;
+  display: inline-block;
+  padding: 10px 40px;
+  border: 1px solid #000000;
+  border-radius: 5px;
 }
