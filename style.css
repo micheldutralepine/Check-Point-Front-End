@@ -548,8 +548,6 @@ body {
 
 /* --------------------- LOCALIZAÇÃO -------------------- */
 
-#onde-estara {
-}
 .localizacao-content {
   margin: auto;
   width: 1220px;
@@ -575,4 +573,31 @@ body {
 .localizacao-descricao {
   width: 1100px;
   font-size: 16x;
+}
+
+/* --------------------- DEVE SABER -------------------- */
+#deve-saber {
+  padding: 50px;
+}
+
+.titulo-deve-saber h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.informacoes-gerais {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacoes-gerais ul {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 18px;
+}
+
+.informacoes-gerais a {
+  color: black;
+  text-decoration: underline;
 }
