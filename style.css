@@ -469,36 +469,110 @@ body {
   font-size: 17;
 }
 
+/* -------------------- AVALIAÇÃO SUCESSO ------------------ */
+
+#avaliacao-sucesso {
+  margin-bottom: 50px;
+}
+
+.avaliacao-sucesso-content {
+  margin: auto;
+  width: 1220px;
+}
+
+.avaliacao-sucesso-avaliacao-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.avaliacao-sucesso-avaliacao-content h1 {
+  font-size: 90px;
+  margin-top: 15px;
+  color: black;
+}
+
+.avaliacao-sucesso-discricao {
+  text-align: center;
+  margin: auto;
+  width: 350px;
+  margin-bottom: 40px;
+}
+
+.avaliacao-sucesso-discricao p {
+  color: #898989;
+  margin-top: 10px;
+}
+
+.avaliacao-sucesso-geral {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avaliacao-sucesso-avaliacao-geral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.avaliacao-sucesso-avaliacao-geral span {
+  color: #000000;
+  margin-top: 5px;
+}
+
+.avaliacao-sucesso-avaliacao-geral img {
+  margin-top: 10px;
+}
+
+.divisao::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  margin-left: 170px;
+  width: 1px;
+  height: 100px;
+  background-color: #898989;
+}
+
+.divisao-avalicao::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  margin-left: 230px;
+  width: 1px;
+  height: 100px;
+  background-color: #898989;
+}
 
 /* --------------------- LOCALIZAÇÃO -------------------- */
+
+#onde-estara {
+}
+.localizacao-content {
+  margin: auto;
+  width: 1220px;
+}
+
+.localizacao-content a {
+  color: black;
+  text-decoration: underline;
+}
+
 .localizacao-titulo h3 {
   font-size: 22px;
-  margin: 50px 0px 20px 80px;
 }
 
 .localizacao-mapa {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .localizacao-estado {
   font-size: 16px;
-  margin-left: 80px;
-  margin-top: 20px;
 }
 
 .localizacao-descricao {
   width: 1100px;
   font-size: 16x;
-  margin-left: 80px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
-
-.localizacao-content a{
-  margin-left: 80px;
-  color: black;
-  text-decoration: underline;
-}
-
