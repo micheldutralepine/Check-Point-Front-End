@@ -384,6 +384,10 @@ body {
 
 /* ---------------------- CALENDARIO ------------------- */
 
+#calendario {
+  margin-bottom: 50px;
+}
+
 .calendario-titulo h3 {
   margin-bottom: 10px;
 }
@@ -560,29 +564,40 @@ body {
 
 .localizacao-titulo h3 {
   font-size: 22px;
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .localizacao-mapa {
-  display: flex;
+  margin-bottom: 30px;
 }
 
 .localizacao-estado {
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .localizacao-descricao {
   width: 1100px;
   font-size: 16x;
+  margin-bottom: 20px;
 }
 
 /* --------------------- DEVE SABER -------------------- */
 #deve-saber {
-  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.deve-saber-content {
+  width: 1220px;
+  margin: auto;
 }
 
 .titulo-deve-saber h3 {
   font-size: 22px;
   margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 .informacoes-gerais {
@@ -594,10 +609,132 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  gap: 18px;
+  gap: 10px;
 }
 
 .informacoes-gerais a {
   color: black;
   text-decoration: underline;
+}
+
+/* ------------------------ AVALIÇÃO -------------------- */
+
+#avaliacao {
+  margin-bottom: 50px;
+}
+
+.avaliacao-content {
+  width: 1220px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.avaliacao-titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avaliacao-titulo img {
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+.avaliacao-esquerda,
+.avalicao-direita {
+  width: 500px;
+}
+.avaliacao-esquerda a,
+.avalicao-direita a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.avaliacao-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 15px;
+}
+
+.avaliacao-info span {
+  margin-left: 5px;
+  color: #dbdbdb;
+  font-size: 14px;
+}
+
+.avaliacao-discricao {
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+/* --------------------------------- FOOTER -------------------- */
+
+#footer {
+  background-color: #f7f7f7;
+  font-size: 15px;
+}
+
+.footer-content {
+  width: 1220px;
+  margin: auto;
+}
+
+.footer-caminho {
+  display: flex;
+  gap: 15px;
+  padding: 30px 0px;
+}
+
+.footer-coluna-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-coluna-link p {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-coluna-link a {
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  margin-top: 50px;
+  display: flex;
+  gap: 110px;
+  margin-bottom: 30px;
+}
+
+.footer-coluna-link a:hover {
+  text-decoration: underline;
+}
+
+.footer-direitos {
+  display: flex;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+.footer-direitos-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-direitos-info a:hover {
+  text-decoration: underline;
+}
+
+.footer-direitos-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-direitos-links-opc {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
