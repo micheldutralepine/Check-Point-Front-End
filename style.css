@@ -757,3 +757,6 @@ body {
   gap: 10px;
   align-items: center;
 }
+#icone path.favorited {
+  fill: #ff385c;
+}
