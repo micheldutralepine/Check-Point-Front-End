@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const menu = document.getElementById("hamburger-menu");
 
   hamburger.addEventListener("click", () => {
-    // Toggle menu visibility
+    
     if (menu.style.display === "none" || menu.style.display === "") {
       menu.style.display = "block";
     } else {
@@ -59,3 +59,6 @@ let index = favoritos.findIndex(item => item.titulo === dadosImovel.titulo);
 if (index !== -1) {
     iconePath.classList.add('favorited');
 }
+//-----------------------EFEITO SLIDER--------------------------
+
+

@@ -760,3 +760,49 @@ body {
 #icone path.favorited {
   fill: #ff385c;
 }
+.invisible-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  position: absolute; /* Para posicionar o botão sobre a imagem */
+}
+/*criando modal*/
+.modal {
+  display: none; /* Oculta o modal por padrão */
+  position: fixed; /* Mantém o modal fixo na tela */
+  z-index: 1; /* Coloca o modal acima de todos os outros elementos */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Permite rolar a página quando o modal estiver aberto */
+  background-color: rgb(0,0,0); /* Cor de fundo preta com transparência */
+  background-color: rgba(0,0,0,0.4); /* Cor de fundo preta com 40% de transparência */
+}
+
+/* Estilos para o conteúdo do modal */
+.modal-content {
+  background-color: #fefefe; /* Cor de fundo do conteúdo do modal */
+  margin: 15% auto; /* Centraliza o modal verticalmente e o coloca 15% do topo da janela */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Largura do modal */
+}
+
+/* Estilo para o botão de fechar */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Estilo para o botão de fechar (quando o mouse passa por cima) */
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
