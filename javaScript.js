@@ -89,8 +89,8 @@ const cria_comentario = (caminhoDaSecao, novoComentario, nomeCliente, alvoNome, 
   alvoDaTag.appendChild(comentario);
 }
 
-cria_comentario("comentario1", "esse comentario foi adicionado via js", 'satanais de calcinha', 'tag-js', 'Sao Paulo, Brasil', 'tag-js-companetes', 'fevereiro de 2024', 'Ficou algumas noites');
-cria_comentario("comentario2","esse comentario veio do js","belzebu de saia","tag-js2","sao paulo ","tag-js-companetes2","fevereiro de 2025","tamorando la e do mst")
+cria_comentario("comentario1", "O lugar é um paraíso dentro da floresta mata atlântica. Voce pode fazer belas caminhadas no meio da floresta e curtir as cachoeiras da propriedade. É uma oportunidade incrível para...", 'Gabriel', 'tag-js', 'Sao Paulo, Brasil', 'tag-js-companetes', 'fevereiro de 2024', 'Ficou algumas noites');
+cria_comentario("comentario2","Wow! No word left! Very friendly and lovely place!","ניס","tag-js2","Tel Aviv-Yafo, Israel","tag-js-companetes2","fevereiro de 2024","tamorando la e do mst")
 
 //---------------EFEITO-SLIDE-------------
 

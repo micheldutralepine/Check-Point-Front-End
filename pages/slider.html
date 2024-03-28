@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Centralizado</title>
+    <link rel="stylesheet" href="/pages/slider.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carousel Centralizado</title>
-  <link rel="stylesheet" href="/pages/slider.css">
-
-
-</head>
-
-<body>
-  <section class="carousel-container">
-    <div id="slide-counter"></div>
-    <div class="carousel">
-      <div id="foto-principal" class="slide"><img src="/imgs/principal.png" alt="foto da parte da frente da casa">
-        <p></p>
+  <body>
+    <section class="carousel-container">
+      <div id="slide-counter"></div>
+      <div class="carousel">
+        <div id="foto-principal" class="slide">
+          <img
+            src="/imgs/principal.png"
+            alt="foto da parte da frente da casa"
+          />
+          <p></p>
+        </div>
+        <div id="slide2" class="slide">
+          <img src="/imgs/img_2.png" alt="foto da sala de estar e cozinha" />
+          <p id="texto-foto">texto foto 1</p>
+        </div>
+        <div class="slide">
+          <img src="/imgs/img_3.png" alt="area externa com fogueira" />
+        </div>
+        <div class="slide">
+          <img
+            src="/imgs/img_4.png"
+            alt="interior da casa com mesa de jantar"
+          />
+        </div>
+        <div class="slide">
+          <img src="/imgs/img_5.png" alt="sala de estar com lareira" />
+        </div>
       </div>
-      <div id="slide2" class="slide"><img src="/imgs/img_2.png" alt="foto da sala de estar e cozinha">
-        <p id="texto-foto">texto foto 1 </p>
+      <div class="carousel-controls">
+        <button id="bt-back" onclick="prevSlide()">⭠</button>
+        <button onclick="nextSlide()">⭢</button>
       </div>
-      <div class="slide"><img src="/imgs/img_3.png" alt="area externa com fogueira"></div>
-      <div class="slide"><img src="/imgs/img_4.png" alt="interior da casa com mesa de jantar"></div>
-      <div class="slide"><img src="/imgs/img_5.png" alt="sala de estar com lareira"></div>
-    </div>
-    <div class="carousel-controls">
-      <button id="bt-back" onclick="prevSlide()">Voltar</button>
-      <button onclick="nextSlide()">Próximo</button>
-    </div>
-    <a id="close-btn" href="/index.html">x</a>
-  </section>
-  
-
-</body>
-<script src="/slider.js"></script>
-
+      <a id="close-btn" href="/index.html">x</a>
+    </section>
+  </body>
+  <script src="/slider.js"></script>
 </html>

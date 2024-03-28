@@ -13,7 +13,7 @@ body {
     position: relative;
     width: 80%;
     max-width: 800px;
-    margin-top: 20px; /* Adiciona margem entre o topo e a foto */
+    margin-top: 20px; 
     overflow: hidden;
   }
 
@@ -69,7 +69,7 @@ body {
     transform: translateX(-50%);
     color: #4e4949;
     font-size: 18px;
-    z-index: 1; /* Garante que o contador fique acima das imagens */
+    z-index: 1; 
   }
 
   #texto-foto {
