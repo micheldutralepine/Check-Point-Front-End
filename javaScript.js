@@ -60,5 +60,33 @@ if (index !== -1) {
     iconePath.classList.add('favorited');
 }
 //-----------------------EFEITO SLIDER--------------------------
+const cria_comentario = (caminhoDaSecao, novoComentario, nomeCliente, alvoNome, localUser, alvodatacaminho, dataComentario, duracaoComentario) => {
+  const alvoDaTag = document.getElementById(caminhoDaSecao);
 
+  // Adiciona o local do usuário
+  const localComentarioElemento = document.createElement("p");
+  localComentarioElemento.innerHTML = localUser;
+  const alvoDaData = document.getElementById(alvodatacaminho);
+  alvoDaData.appendChild(localComentarioElemento);
 
+  // Adiciona a data e a duração da estadia
+  const dataDuracaoElemento = document.createElement("p");
+  dataDuracaoElemento.innerHTML = `${dataComentario}
+   <span ><br${duracaoComentario}<br/></span>`;
+  alvoDaData.appendChild(dataDuracaoElemento);
+
+  // Adiciona o nome do cliente
+  const nomeClienteElemento = document.createElement("h4");
+  nomeClienteElemento.innerHTML = nomeCliente;
+  const alvoDaTagNome = document.getElementById(alvoNome);
+  alvoDaTagNome.appendChild(nomeClienteElemento);
+
+  // Adiciona o comentário
+  const comentario = document.createElement("p");
+  comentario.innerHTML = novoComentario;
+
+  alvoDaTag.appendChild(comentario);
+}
+
+cria_comentario("comentario1", "esse comentario foi adicionado via js", 'satanais de calcinha', 'tag-js', 'Sao Paulo, Brasil', 'tag-js-companetes', 'fevereiro de 2024', 'Ficou algumas noites');
+cria_comentario("comentario2","esse comentario veio do js","belzebu de saia","tag-js2","sao paulo ","tag-js-companetes2","","")
